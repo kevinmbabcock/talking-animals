@@ -4,11 +4,11 @@ $(document).ready(function() {
     $("ul#dog").prepend("<li>I can't meow, I'm a dog</li>");
 
     $("ul#cat").children("li").first().click(function() {
-      $(this).remove();
+      $("#catPhoto").show();
     });
 
     $("ul#dog").children("li").first().click(function() {
-        $(this).remove();
+      $("#dogPhoto").show();
     });
   });
 
@@ -17,12 +17,12 @@ $(document).ready(function() {
     $("ul#dog").prepend("<li>BARK!</li>");
 
     $("ul#cat").children("li").first().click(function() {
-      $(this).remove();
+      $("#catPhoto").show();
     });
 
     $("ul#dog").children("li").first().click(function() {
-      $(this).remove();
+      $("#dogPhoto").show();
     });
   });
-  
+
 });
